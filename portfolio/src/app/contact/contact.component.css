@@ -1,0 +1,24 @@
+p {
+    margin-bottom:0rem; 
+}
+
+.color{
+    
+    background: oldlace;
+}
+
+
+.full-width{
+    width:100%;
+    color: black;
+    
+}
+
+textarea{
+    min-height: 10rem;
+}
+
+a {
+    color: mediumturquoise;
+}
+

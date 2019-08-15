@@ -1,0 +1,36 @@
+<div class="row">
+  <mat-card class="col-12">
+    <h4>Contact Information</h4>
+  </mat-card>
+</div>
+<mat-divider class="my-3"></mat-divider>
+<div class="row mb-5">
+  <div class="col-12 col-md-4">
+    <address>
+      <p><strong>Md.Shahir Hossain</strong></p>
+      <p>Ovijan-161, College Road, College Gate, Tongi</p>
+      <p>Gazipur - Bangladesh</p>
+    </address>
+    <address>
+      <p><strong>Email </strong></p>
+      <a href="mailto:16303019@iubat.edu">16303019@iubat.edu</a>
+    </address>
+  </div>
+  <div class="col-12 col-md-8 color">
+    <form ngNoForm action="https://formspree.io/16303019@iubat.edu" method="POST">
+      <mat-form-field  class="full-width mt-3 mb-2">
+        <input matInput type="email" placeholder="You Email" required>
+      </mat-form-field>
+      <mat-form-field class="full-width mb-2">
+        <input matInput placeholder="Subject" name="subject" required>
+      </mat-form-field>
+      <mat-form-field class="full-width mb-2">
+        <textarea matInput placeholder="Message" name="message" required></textarea>
+      </mat-form-field>
+      <button mat-stroked-button color="primary" type="submit">Send Message</button>
+      <div class="mb-3">
+
+      </div>
+    </form>
+  </div>
+</div>

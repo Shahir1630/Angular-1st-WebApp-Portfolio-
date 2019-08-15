@@ -1,0 +1,162 @@
+body{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    background-color: black;
+    color:#f8f9fa;
+}
+
+
+.site{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+
+.site-content{
+    flex: 1;
+    
+}
+
+.hearder {
+
+    background-image: url('../../assets/images/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    min-height: 200px;
+    padding-top: 180px;
+    padding-bottom: 100px;
+    color: mediumturquoise;
+    border-top: 3px solid mediumturquoise;/*.navbar*/
+
+}
+/*navbar*/
+
+/*.navbar{
+    
+    border-bottom: 3px solid mediumturquoise;
+}*/
+
+
+.bg-dark {
+    background-color: rgba(0,0,0,.9)!important;
+}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: mediumturquoise;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #f8f9fa;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: mediumturquoise;
+
+}
+
+/* main*/
+.main-content{
+    margin-top: -40px;
+}
+
+/*footer*/
+
+.footer
+{
+    position: relative;
+    bottom: 1.25rem;
+    color: #f2f2f2;
+    border-top: 3px solid mediumturquoise;
+    background-color: #202020;
+}
+.footer p 
+{
+    padding-top: 1.25rem;
+}
+.footer p i{
+    color: mediumturquoise;
+
+}
+
+.social-icons li
+{   
+    display: inline-block;
+    list-style: none;
+}
+.social-icons li a
+{ 
+        padding:0.75rem 1rem; 
+        text-align: center;
+        color: #f2f2f2;
+        transition: color 0.2s ease-out;
+        text-decoration: none;
+       
+}
+
+.social-icons li a:hover {
+    color: mediumturquoise;
+}
+
+/*mat-card*/
+
+.row .skill-block{
+    padding: 2.5rem 1.25rem;
+    margin-bottom:1rem; 
+}
+
+.mat-card{
+    color: #bbbbbb;
+    background: #202020;
+}
+
+.mat-card .mat-card-header-text{
+    
+    margin: 0rem 0.5rem;
+}
+
+.mat-card-header i
+{
+    color: mediumturquoise;
+}
+
+/* icon color */
+
+.angular-color{
+    color:#dd000b;
+}
+
+.react-color{
+    color: aqua;
+}
+
+.vue-color{
+    color: rgb(3, 124, 78);
+}
+
+
+/*home page portfolio-preview*/
+.portfolio-preview{
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+}
+.portfolio-preview img{
+    border: 2px solid #bbbbbb;
+}
+
+/* portfolio page */
+
+.filter-card .mat-card-header-text{
+    margin: 0rem;
+}
+
+.mat-card-header .angular-color{
+    color:#dd000b;    
+}
+
+.mat-card-header .react-color{
+    color: aqua;
+}
+
+.mat-card-header .vue-color{
+    color: rgb(3, 124, 78);
+}
